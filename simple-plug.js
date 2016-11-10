@@ -1,7 +1,7 @@
 var mqtt = require('mqtt');
 
 var config = require('./config.json');
-var thngId = config.thngID;
+var thngId = config.thngId;
 var thngUrl = '/thngs/' + thngId;
 var thngApiKey = config.thngApiKey;
 var interval;
